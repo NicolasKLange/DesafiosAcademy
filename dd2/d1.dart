@@ -34,7 +34,6 @@ abstract class MeioDeComunicacao {
 
 //CLASSE DO TELEFONE
 class Telefone extends MeioDeComunicacao {
-  @override
   void fazerLigacao(String numero) {
     print("[TELEFONE] Ligando para $numero");
   }
@@ -42,7 +41,6 @@ class Telefone extends MeioDeComunicacao {
 
 //CLASSE DO CELULAR
 class Celular extends MeioDeComunicacao {
-  @override
   void fazerLigacao(String numero) {
     print("[CELULAR] Ligando para $numero");
   }
@@ -50,8 +48,7 @@ class Celular extends MeioDeComunicacao {
 
 //CLASSE DO ORELHAO
 class Orelhao extends MeioDeComunicacao {
-  @override
   void fazerLigacao(String numero) {
     print("[ORELHÃO] Ligando para $numero");
   }
-}    
+}

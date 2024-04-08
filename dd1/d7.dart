@@ -1,5 +1,5 @@
 void main() {
-  
+
   List<int> numeros = [10, 35, 999, 126, 95, 7, 348, 462, 43, 109];
 
   print("For: ${somaFor(numeros)}");

@@ -11,7 +11,7 @@ MeioDeComunicacao aleatorio() {
   final meiosDeComunicacao = <MeioDeComunicacao>[
     Telefone(),
     Celular(),
-    Orelhao(),
+    Orelhao(),  
   ];
 
   final random = math.Random();

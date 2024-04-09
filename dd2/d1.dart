@@ -20,8 +20,6 @@ MeioDeComunicacao aleatorio() {
   return meiosDeComunicacao[random.nextInt(
     meiosDeComunicacao.length,
   )];
-
-
 }
 
 ///****CRIACAO DAS CLASSES****

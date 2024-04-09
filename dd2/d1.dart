@@ -9,7 +9,7 @@ void main() {
 
 MeioDeComunicacao aleatorio() {
   final meiosDeComunicacao = <MeioDeComunicacao>[
-    Telefone(),
+    Telefone(),   
     Celular(),
     Orelhao(),
   ];

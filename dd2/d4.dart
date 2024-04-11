@@ -27,7 +27,7 @@ void main() {
     trianguloRetanguloB,
     pentagonoRegularA,
     pentagonoRegularB,
-    hexagonoRegularA,
+    hexagonoRegularA,   
     hexagonoRegularB,
   ];
 
